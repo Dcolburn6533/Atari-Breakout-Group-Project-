@@ -10,4 +10,5 @@ package ProjectFinal;
  */
 public class Collision {
     
+    
 }
