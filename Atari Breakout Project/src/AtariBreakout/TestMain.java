@@ -4,10 +4,6 @@
  */
 package AtariBreakout;
 
-/**
- *
- * @author Dcolb
- */
 public class TestMain {
      public static void main(String args[]){
          Circle c = new Circle();
