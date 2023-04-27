@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/** CMPSCI 221 Final Project
+ * Score.java
+ * Purpose: Create a score class for the final project
+ * @author samfarhady
  */
 package AtariBreakout;
 
-/**
- *
- * @author samfarhady
- */
 public class Score {
     private int lives, levels, score;
     

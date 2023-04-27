@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/** CMPSCI 221 Final Project
+ * Circle.java
+ * Purpose: Create a circle class for the final project
+ * @author samfarhady
  */
 package AtariBreakout;
 
-/**
- *
- * @author samfarhady
- */
 public class Circle {
     private int x, y, vx, vy, radius, length, width, lives, levels;
     

@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/** CMPSCI 221 Final Project
+ * Collision.java
+ * Purpose: Create a score class for the final project
+ * @author Dcolb and @author samfarhady
  */
 package AtariBreakout;
 
-/**
- *
- * @author Dcolb
- */
 public class Collision {
     public boolean collide(Circle c, Rectangle r) {
         if (c.GetYPosition() == r.GetYPos()) {
