@@ -34,6 +34,10 @@ public class Circle {
         this.x += vx;
         this.y += vy;
     }
+    public void SetPosition(int inX, int inY) {
+        this.x += inX;
+        this.y += inY;
+    }
     
     public void SetRadius(int r) {
         this.radius = r;
