@@ -11,19 +11,19 @@ package AtariBreakout;
 public class Rectangle {
     private int x, y, length, width;
     
-    public int GetXPos(int x) {
+    public int GetXPos() {
         return x;
     }
     
-    public int GetYPos(int y) {
+    public int GetYPos() {
         return y;
     }
     
-    public int GetLength(int length){
+    public int GetLength(){
         return length;
     }
     
-    public int GetWidth(int width) {
+    public int GetWidth() {
         return width;
     }
     

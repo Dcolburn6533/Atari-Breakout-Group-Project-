@@ -11,26 +11,26 @@ package AtariBreakout;
 public class Circle {
     private int x, y, vx, vy, r, length, width, lives, levels;
     
-    public int GetXPosition(int x) {
+    public int GetXPosition() {
         
         return x;
     }
     
-    public int GetYPosition(int y) {
+    public int GetYPosition() {
         
         return y;
     }
     
-    public int GetXVelocity(int vx, int x) {
+    public int GetXVelocity() {
        
         return vx;
     }
     
-    public int GetYVelocity(int vy, int v) {
+    public int GetYVelocity() {
         return vy;
     }
     
-    public int GetRadius(int r){
+    public int GetRadius(){
         return r;
     }
     

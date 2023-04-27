@@ -9,7 +9,14 @@ package AtariBreakout;
  * @author Dcolb
  */
 public class Collision {
+    public boolean collide(Circle c, Rectangle r, Score s) {
+        if (c.GetYPosition() == r.GetYPos()) {
+            if (c.GetXPosition() == r.GetXPos()) {
+                
+            }
+    }
     
+}
     
    
         
