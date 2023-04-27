@@ -27,4 +27,19 @@ public class Rectangle {
         return width;
     }
     
+    public void SetXPos(int mx) {
+        this.x = mx;
+    }
+    
+    public void SetYPos(int my) {
+        this.y = my;
+    }
+    
+    public void SetLength(int l) {
+        this.length = l;
+    }
+    
+    public void SetWidth(int w) {
+        this.width = w;
+    }
 }

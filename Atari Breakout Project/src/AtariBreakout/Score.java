@@ -11,23 +11,23 @@ package AtariBreakout;
 public class Score {
     private int lives, levels, score;
     
-    public int getLevels() {
+    public int GetLevels() {
         return levels;
     }
     
-    public int getLives() {
+    public int GetLives() {
         return lives;
     }
     
-    public int getScore() {
+    public int GetScore() {
         return score;
     }
     
-    public void setLevels(int levels) {
+    public void SetLevels(int levels) {
         this.levels = levels;
     }
     
-    public void setLives(int lives) {
+    public void SetLives(int lives) {
         this.lives = lives;
     }
     

@@ -9,7 +9,7 @@ package AtariBreakout;
  * @author samfarhady
  */
 public class Circle {
-    private int x, y, vx, vy, r, length, width, lives, levels;
+    private int x, y, vx, vy, radius, length, width, lives, levels;
     
     public int GetXPosition() {
         
@@ -31,7 +31,15 @@ public class Circle {
     }
     
     public int GetRadius(){
-        return r;
+        return radius;
+    }
+    public void SetPosition() {
+        this.x += vx;
+        this.y += vy;
+    }
+    
+    public void SetRadius(int r) {
+        this.radius = r;
     }
     
 }
