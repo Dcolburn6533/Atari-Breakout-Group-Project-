@@ -27,6 +27,15 @@ public class Circle {
         return vy;
     }
     
+    public void SetYVelocity(int yv){
+        this.vy = yv;
+    }
+    
+    public void SetXVelocity(int xv){
+        this.vx = xv;
+    }
+    
+    
     public int GetRadius(){
         return radius;
     }

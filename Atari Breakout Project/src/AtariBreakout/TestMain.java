@@ -16,6 +16,7 @@ public class TestMain {
          Score s = new Score();
          c.SetRadius(5);
          c.SetPosition(240, 120);
+         
          r.SetXPos(120);
          r.SetYPos(120);
          r.SetLength(60);
