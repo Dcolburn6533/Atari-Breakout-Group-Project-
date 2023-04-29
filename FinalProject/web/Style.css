@@ -16,7 +16,15 @@ form {
 }
 
 input {
-    
+    background-color: #dbd493;
+}
+
+body {
+    background-color: #a5abc1;
+}
+
+h5 {
+    color: red;
 }
 
 h3 {

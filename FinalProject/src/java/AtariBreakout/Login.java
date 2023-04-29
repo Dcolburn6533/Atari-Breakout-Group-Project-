@@ -33,16 +33,44 @@ public class Login extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Login</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Hello " + request.getParameter("username") +". Your password is " + request.getParameter("password") + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            
+            // If the user entered information into both fields, check the submission type
+            if(!request.getParameter("username").equals("") && !request.getParameter("password").equals("")) {
+                
+                // If the user pressed log in
+                if(request.getParameter("logIn") != null) {
+                    out.println("<h1>Hello " + request.getParameter("username") +". Your password is " + request.getParameter("password") + " and you pressed  " + request.getParameter("logIn") + "</h1>");
+               
+                    // If login credentials match a known user within the database, redirect the user to the download link
+                    // ADD CODE TO CHECK THE DATABASE AND MATCH WITH THE USERS CREDENTIALS
+                    if(request.getParameter("username").equals("Kiernan")) {
+                        request.getRequestDispatcher("Download.jsp").forward(request, response);
+                    }
+                
+                    // If login credentials do not match, redirect to the home page with an error message
+                    else {
+                        request.getRequestDispatcher("Redirect.jsp").forward(request, response);
+                    }
+                }
+                
+                // If the user pressed sign up
+                else {
+                    out.println("<h1>Hello " + request.getParameter("username") +". Your password is " + request.getParameter("password") + " and you pressed  " + request.getParameter("signUp") + "</h1>");
+                    
+                    /*
+                    ADD CODE TO SIGN USER UP WITHIN THE DATABASE
+                    */
+                    
+                    request.getRequestDispatcher("Download.jsp").forward(request, response);
+                }
+            
+            }
+            
+            // If the user did not enter information for both form fields, redirect to the home page with an error message
+            else {
+                request.getRequestDispatcher("Redirect.jsp").forward(request, response);
+            }
+            
         }
     }
 
