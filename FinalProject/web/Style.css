@@ -8,6 +8,14 @@
     height: 444px;
 }
 
+.download {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
 form {
     width: 1200px;  
     margin-left: auto;

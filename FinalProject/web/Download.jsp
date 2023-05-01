@@ -19,7 +19,7 @@
         <img src="Images/Atari_Logo.png" alt="Atari Logo" class = "logo"><br /><br />
         
         <a href="Images/Atari_Logo.png" download="Atari Game">
-        <h3>Download Atari Breakout Now!</h3>
+        <img src="Images/Download.png" alt="Download Button" class="download" />
         </a>
         
         
