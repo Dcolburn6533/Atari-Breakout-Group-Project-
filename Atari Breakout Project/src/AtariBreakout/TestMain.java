@@ -39,7 +39,7 @@ public class TestMain {
          }
           
           LaunchGui textFieldFrame = new LaunchGui(); 
-           textFieldFrame.setSize( 600, 300 ); // set frame size
+           textFieldFrame.setSize( 600, 600 ); // set frame size
     
            textFieldFrame.setVisible( true );
      }
