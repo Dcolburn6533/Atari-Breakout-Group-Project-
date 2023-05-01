@@ -37,5 +37,10 @@ public class TestMain {
              System.out.println("You are a fucking idiot");
              System.out.println("you have earned " + s.GetScore() + " points");
          }
+          
+          LaunchGui textFieldFrame = new LaunchGui(); 
+           textFieldFrame.setSize( 600, 300 ); // set frame size
+    
+           textFieldFrame.setVisible( true );
      }
 }
