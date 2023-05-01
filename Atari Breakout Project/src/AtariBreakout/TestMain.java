@@ -18,23 +18,23 @@ public class TestMain {
          r.SetYPos(120);
          r.SetLength(60);
          if(Col.collide(c,r )){
-            System.out.println("You are not a fucking idiot");
+            System.out.println("It works");
             s.addScore();
             System.out.println("you have earned " + s.GetScore() + " points");
          }
          else{
-             System.out.println("You are not a fucking idiot");
+             System.out.println("It doesnt work");
              System.out.println("you have earned " + s.GetScore() + " points");
          }
          
          c.SetPosition();
           if(Col.collide(c,r )){
-            System.out.println("You are not a fucking idiot");
+            System.out.println("it works");
             s.addScore();
             System.out.println("you have earned " + s.GetScore() + " points");
          }
          else{
-             System.out.println("You are a fucking idiot");
+             System.out.println("It doesnt work");
              System.out.println("you have earned " + s.GetScore() + " points");
          }
           
