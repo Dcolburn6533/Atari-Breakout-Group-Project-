@@ -1,11 +1,11 @@
 /** CMPSCI 221 Final Project
  * Rectangle.java
  * Purpose: Create a rectangle class for the final project
- * @author samfarhady
+ * @author samfarhady and Dylan Colburn
  */
 package AtariBreakout;
 
-public class Rectangle {
+public class Rectangles {
     private int x, y, length, width;
     
     public int GetXPos() {
